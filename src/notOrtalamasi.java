@@ -7,16 +7,16 @@ public class notOrtalamasi {
 
         Scanner input=new Scanner(System.in);
 
-        System.out.println("Matematik notunuz: ");
+        System.out.println("Matematik notu: ");
         mat=input.nextInt();
 
-        System.out.println("Fizik notunuz: ");
+        System.out.println("Fizik notu: ");
         fizik=input.nextInt();
 
-        System.out.println("Kimya notunuz: ");
+        System.out.println("Kimya notu: ");
         kimya=input.nextInt();
 
-        System.out.println("Türkçe notunuz: ");
+        System.out.println("Türkçe notu: ");
         turkce=input.nextInt();
 
 
