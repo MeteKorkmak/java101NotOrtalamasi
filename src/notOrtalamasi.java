@@ -2,7 +2,7 @@ package Giris;
 import java.util.Scanner;
 public class notOrtalamasi {
     public static void main(String[] args) {
-        int mat,fizik,kimya,turkce;
+        int mat,fizik,kimya,turkce,tarih,resim;
         double ort;
 
         Scanner input=new Scanner(System.in);
@@ -19,11 +19,17 @@ public class notOrtalamasi {
         System.out.println("Türkçe notu: ");
         turkce=input.nextInt();
 
+        System.out.println("Tarih notu: ");
+        tarih=input.nextInt();
 
-        ort=(mat+fizik+kimya+turkce)/4.0;
+        System.out.println("Türkçe notu: ");
+        resim=input.nextInt();
+
+
+        ort=(mat+fizik+kimya+turkce50+tarih+resim)/6.0;
         System.out.println("Bu dört dersinizin ortalaması: "+ort);
 
-        String str= ort>=60 ? "Sınıfı geçtiniz." : "Sınıfta kaldınız.";
+        String str= ort>=50 ? "Sınıfı geçtiniz." : "Sınıfta kaldınız.";
         System.out.println(str);
 
 
